@@ -20,74 +20,74 @@ a{
 
 
 /*logo部分 */
-.logo{
-    width: 100%;
-    height: 130px;
-}
-.logo-both{
-	float: left;
-	width: 70%;
-}
-.logo-l{
-	float: left;
-	width: 30%;
-	height:130px;
-	
-}
-.logo-l img{
+#logobox{
 	width: 90%;
-	height: 90px;
-	margin: 5% 45%;
+	height: 120px;
+	margin: auto;
+	margin-top: 10px;
+	display:flex;
+	-webkit-justify-content: space-between;
+    justify-content: space-between;
 }
 
-.logo-c{
-	float: right;
-	width: 70%;
-	height:130px;
-	overflow: hidden;
+#logo{
+	width: 25%;
+	height: 100px;
 }
-
-.logo-c .serch{
-	width: 30%;
+#logo img{
+	width: 90%;
+	height: 100px;
+	margin-left: 20px;
+}
+#serchbox{
+	width: 50%;
+	height: 100px;
+	display:flex;
+	-webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+#serchbox #serch{
+	width: 80%;
+	height: 40px;
+	
+	margin-top: 30px;
+}
+#serchbox #serch #serchtxt{
+    width: 100%;
+    height: 40px;
+    border-radius: 0px;
+}
+#serchbox #serchbtn{
+	width: 20%;
 	height: 45px;
-    /*margin: 50px 100px;*/
-    position: absolute;
-    top: 11%;
-    left: 36%;
-    border-radius: 5px;
-    border:solid 1px #666;
+	margin-top: 30px;
 }
-.logo-c .btn{
-	width: 5%;
-	height: 45px;
-	position: absolute;
-	top: 11%;
-    left: 67%;
-    background-color: #1E90FF;
-}
-.logo-c .btn:hover{
-	opacity: 0.9;
-}
-.logo-r{
-	float: left;
-	width: 27%;
-	height:130px;
-	display: flex;
-	padding-left: 5%;
-}
-.logo-r img{
-	width: 100%;
-	height: 90px;
-	margin: 4% 0;
+#serchbox #serchbtn #serchbutton{
+	width: 80px;
+	height: 40px;
+	 border-radius: 0px;
 }
 
-.logo-r span{
-	margin: 35px 15px;
+#contact{
+	width: 25%;
+	height: 100px;
+	display:flex;
+	margin-left: 20px;
 }
-@media screen and (max-width: 1300px) {
-.logo-r {
-  display: none;
+.phonelogo{
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
 }
+.phonelogo img{
+	width: 80px;
+	height: 80px;
+}
+.phonetxt{
+	width: 100px;
+	height: 100px;
+    margin-left: 10px;
+	margin-top: 25px;
 }
 
 
